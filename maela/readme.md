@@ -12,9 +12,9 @@
 
 * **Description:** We report whole-genome sequencing of 3,085 pneumococcal carriage isolates from a 2.4-km2 refugee camp.
 * **Assemblies:** Assemblies generated in this study can be accessed at ftp://ftp.sanger.ac.uk/pub/pathogens/Streptococcus/pneumoniae/Maela_assemblies.tgz.
-	* Remark: Assembled sequences' names are sample accessions (ERS...) but Table S1 contains only ENA accessions (ERR...). It is possible to translate using full XML report files. They can be download using ``curl``
+	* Remark: Assembled sequences' names are sample accessions (ERS...) but Table S1 contains only ENA accessions (ERR...). It is possible to translate using Maela ID table. It can be download using ``wget``
 	```
-		curl "https://trace.ncbi.nlm.nih.gov/Traces/sra/sra.cgi?save=efetch&amp;db=sra&amp;rettype=fullxml&amp;term=ERX247827"
+		wget "ftp://ftp.sanger.ac.uk/pub/pathogens/Streptococcus/pneumoniae/MAELA/Maela.id.txt"
 	```
 * **Reads:** Sequencing reads for all 3,085 isolates have been deposited in the NCBI Sequencing Read Archive (SRA) under study accessions
 [ERP000435](https://www.ncbi.nlm.nih.gov/sra/?term=ERP000435),
